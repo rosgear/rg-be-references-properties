@@ -1,0 +1,38 @@
+[
+    {
+        "xtype": "textfield",
+        "maxLength": 100,
+        "fieldLabel": "#Name",
+        "name": "name",
+        "allowBlank": false
+    },
+    {
+        "xtype": "textfield",
+        "maxLength": 100,
+        "fieldLabel": "#Property",
+        "name": "property"
+    },
+    {
+        "xtype": "combobox",
+        "fieldLabel": "#Type",
+        "name": "type",
+        "store": {
+            "fields": ["value", "type"],
+            "data": [
+                ["date", "#date"], ["boolean", "#boolean"], ["number", "#number"], ["string", "#string"], ["array", "#array"], ["object", "#object"]
+            ]
+        },
+        "displayField": "type",
+        "valueField": "value",
+        "queryMode": "local",
+        "editable": false
+    },
+    {
+        "xtype": "textarea",
+        "fieldLabel": "#Editor",
+        "tooltip": "#Editor options used by the \"property grid\" to change the value of a property",
+        "name": "editor",
+        "height": 150,
+        "allowBlank": true
+    }
+]
