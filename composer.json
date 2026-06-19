@@ -1,7 +1,7 @@
 {
     "name": "rosgear/rg-be-references-properties",
-    "description": "Extension (module) \"Interface element properties\"",
-    "keywords": ["rosgear", "gepanel", "extension (module)"],
+    "description": "Module extension \"Interface element properties\"",
+    "keywords": ["rosgear", "gepanel", "module", "extension"],
     "homepage": "https://rosgear.ru/component/rg-be-references-properties",
     "type": "component",
     "license": "MIT",
