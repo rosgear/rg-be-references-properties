@@ -12,8 +12,8 @@
 return [
     'name'        => 'Properties of interface elements',
     'description' => 'Properties of the interface elements of the GePanel Control Panel components',
-    'version'     => '1.0',
-    'versionDate' => '20-12-2017',
+    'version'     => '1.0.1',
+    'versionDate' => '07-10-2026',
     'author'      => 'RosGear',
     'authorUrl'   => 'https://rosgear.ru/',
     'email'       => 'info@rosgear.ru',
