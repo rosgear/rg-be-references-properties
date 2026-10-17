@@ -15,12 +15,21 @@
     <div class="g-help-screen g-help-screen--hidable">
         <img src="<?= $assetsUrl, '/help/form.png' ?>" />
     </div>
-    <p>Форма появляется после нажатия на кнопку <b>"Добавить"</b> панели инструментов списка элементов или выбора пункта <b>"Редактировать"</b> контекстного меню выбранной записи.</p>
+    <p>Форма появляется после нажатия на кнопку <b>"Добавить"</b> панели инструментов <a href="<?= $url('grid') ?>">списка свойств элементов интерфейса</a> или выбора пункта <b>"Редактировать"</b> контекстного меню выбранной записи.</p>
     <h2>Поля формы</h2>
     <ul class="g-help-list">
-        <li><b>Название.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Свойство.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Тип значения.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Редактор.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Название.</b> Название (описание на английском языке) свойства элемента интерфейса;</li>
+        <li><span class="g-help-fld g-help-fld_combo"></span> <b>Тип значения.</b> Тип значения свойства элемента может быть одним из следующих:
+            <ul>
+                <li><code>boolean</code> — логический тип;</li>
+                <li><code>date</code> — дата;</li>
+                <li><code>number</code> — числовой тип;</li>
+                <li><code>string</code> — строковый тип;</li>
+                <li><code>array</code> — массив;</li>
+                <li><code>object</code> — объект.</li>
+            </ul>
+        </li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Свойство.</b> Название свойства (property name) компонента в Sencha ExtJS — это идентификатор конфигурации или атрибута, используемый при объявлении или настройке компонента (в config, в объекте конфигурации конструктора либо через сеттеры);</li>
+        <li><span class="g-help-fld g-help-fld_textarea"></span> <b>Редактор.</b> Параметры редактора используемые «сеткой свойств» для изменения значений свойств элемента интерфейса, передаются в формате JSON.</li>
     </ul>
 </article>
